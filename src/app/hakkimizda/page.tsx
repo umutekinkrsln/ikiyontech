@@ -15,7 +15,7 @@ export default function Hakkimizda() {
           <Reveal as="div" className="sec-tag">Hakkımızda</Reveal>
           <Reveal as="h1">İki farklı uzmanlık, tek yön</Reveal>
           <Reveal as="p">İkiyön Tech, yazılım ve dijital pazarlamayı ayrı ayrı değil, birlikte kurgulayan bir ekip olarak yola çıktı.</Reveal>
-          <Reveal as="p">Muhammet Kemal Demir - Umut Ekin Karaslan </Reveal>
+          <Reveal as="p">Muhammet Kemal Demir</Reveal>
         </div>
       </section>
 

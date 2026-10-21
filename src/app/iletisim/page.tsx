@@ -25,7 +25,6 @@ export default function Iletisim() {
               <div className="contact-info-item">
                 <div className="label">Telefon</div>
                 <a className="val" href="tel:+905343989057">0 534 398 90 57</a>
-                <a className="val" href="tel:+905069935123">0 506 993 51 23</a>
               </div>
               <div className="contact-info-item">
                 <div className="label">Web</div>
