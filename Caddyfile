@@ -1,0 +1,10 @@
+# Ana adres: www.ikiyontech.com  (SSL sertifikasını Caddy kendisi alır ve yeniler)
+www.ikiyontech.com {
+	encode zstd gzip
+	reverse_proxy app:3000
+}
+
+# Çıplak domain www'ya yönlensin
+ikiyontech.com {
+	redir https://www.ikiyontech.com{uri} permanent
+}
